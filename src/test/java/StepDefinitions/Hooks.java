@@ -6,7 +6,7 @@ import io.cucumber.java.AfterAll;
 public class Hooks extends BaseClass{
 
 	@AfterAll
-	public void termination()
+	public static void termination()
 	{
 		getDriver().quit();
 	}
