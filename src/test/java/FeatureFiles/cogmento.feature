@@ -1,3 +1,4 @@
+
 Feature: Test Cogmento CRM Application
 
   Scenario: validate login functionality
