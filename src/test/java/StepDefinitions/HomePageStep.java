@@ -18,7 +18,7 @@ public class HomePageStep extends BaseClass {
 	}
 	@Then("click on ContactLink")
 	public void click_on_contact_link() {
-		homepage.clickOnCompanyLink();
+		homepage.clickOnContactLink();
 	}
 
 }
