@@ -9,3 +9,7 @@ Feature: Test Cogmento CRM Application
     When enter the first name
     And enter email
     And click on save
+
+  Scenario: validate HomePage Functionality
+    When validate HomePage URL
+    Then click on ContactLink
